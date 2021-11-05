@@ -1,0 +1,127 @@
+@media (max-width: 991px) { 
+    
+    html{
+        font-size: 80%;
+    }
+
+    .custom-button {
+        padding: .7rem 1rem;
+    }
+
+    .function img {
+        height: 18rem;
+    }
+    .eye-catcher a {
+        font-size: .8rem;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 768px) { 
+    .column {width:720px}
+    html{
+        font-size: 70%;
+    }
+    .banner-image {
+        text-align: center;
+        padding-top: 5rem;
+    }
+    .banner {
+        text-align: center;
+    }
+
+    .feature-content {
+        padding: 1rem 0;
+    }
+
+    .contact {
+        height: 69rem;
+    }
+
+    .contact-details {
+        text-align: center;
+        padding-bottom: 3rem;
+    }
+
+    .contact_form {
+        left: 50%;        
+    }
+    .design .section-heading {
+        text-align: center;
+    }
+    .design .underline::before {
+        left: 48.5%;
+        transform: translateX(-48.5%);
+    }
+    .design .underline::after {
+        left: 51.5%;
+        transform: translateX(-51.5%);
+    }
+    .mobile-img img {
+        height: 30rem;
+    }
+    .mobile-img {
+        text-align: center;
+    }
+    .eye-catcher p {
+        margin-bottom: 1.7rem;
+    }
+    .contact {
+        height: 74rem;
+    }
+
+    .carousel-item {
+        min-height: 35rem;
+    }
+    .silder-content h5 {
+        margin-left: 8rem;
+    }
+    .silder-content h4 {
+        margin-left: 8rem;
+        margin-top: 10px;
+    }
+    .design-feature ul li img {
+        margin: auto;
+    }
+    .design-feature ul li p {
+        margin-left: 2.5rem;
+    }
+    .design-feature ul li {
+        margin: 14px 0;
+    }
+    .function .section-heading {
+        text-align: center;
+    }
+    .function .underline::before {
+        left: 48.5%;
+        transform: translateX(-48.5%);
+    }
+    .function .underline::after {
+        left: 51.5%;
+        transform: translateX(-51.5%);
+    }
+    .underline::before {
+        left: 47%;
+        transform: translateX(-47%);
+    }
+    .underline::after {
+        left: 53%;
+        transform: translateX(-53%);
+    }
+    .table_content ul {
+        margin-bottom: 16px;
+    }
+}
+
+@media (max-width: 576px) { 
+
+    .submit {
+        text-align: center;
+    }
+    .contact_form {
+        width: 22rem;
+    }
+    .table_content {
+        margin: 3rem;
+    }
+}
